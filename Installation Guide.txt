@@ -1,0 +1,22 @@
+To run our project one must need to follow these steps:-
+
+1. Python must be installed in your system.
+
+2.Install the following modules if not already present:
+  (Use command: pip install module_name)
+  a. numpy
+  b. pandas
+  c. scikit-learn
+  d.flask
+3. Open cmd or Terminal in project folder.
+
+4. Run app.py
+
+5. Go through the url that's in console(ex:- http://127.0.0.1:5000/).
+
+6. Select any district or year and click on submit.
+
+7.Now you can see future predictions and other data.
+
+
+Note:- You can use other datasets but the column name must be exactly same.

@@ -1,0 +1,36 @@
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	* {
+  box-sizing: border-box;
+  text-align:center;
+}
+h2{
+font-family: "Times New Roman", Times, serif;
+margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+  text-align:center;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+	</style>
+	</head>
+	<body>
+		<h2>OUTPUT</h2>
+		<div class="container">
+			<h2>
+				<font color="red">Number(max) of Patients affected by Malaria:</font> {{patients}}  <br><br>
+				<font color="red">Year :</font>{{yr}}  <br><br>
+				<font color="red">District :</font>{{dist}}  <br><br>
+				<font color="red">Percentage :</font>{{max_percent}}  <br><br>
+			    <font color="red">Future Prediction :</font>There may be an increase of {{coef}} next year.
+			</h2>
+		</div>
+	</body>
+	</html>

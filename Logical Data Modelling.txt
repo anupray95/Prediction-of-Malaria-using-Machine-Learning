@@ -1,0 +1,22 @@
+Logical data modelling
+=========================
+In our project we don't use any type of databases.
+Instead of db we use excel files in .xlsx format.
+
+In our project the columns present are:
+
+1.Year
+2.District
+3.MalariaPatient
+4.Percent
+5.Cummulative
+
+In rows there is different years:
+
+1.2012
+2.2013
+3.2014
+4.2015
+5.2016
+
+Note:- You can use other datasets but the column name must be exactly same.
